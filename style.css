@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    background-color: rgb(212, 190, 141);
+    
+  
+}
+
+
+.main-section {
+    min-height: 100px;
+    font-family: 'Architects Daughter', cursive;
+    background: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: slategrey;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 3%;
+}
+
+.navbar ul {
+    list-style: none;
+
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: 0.9rem
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: sienna;
+
+}
+
+.navbar ul li a:hover {
+    opacity: 0.8;
+}
+
+.main-text {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    font-size: calc(1rem + 0.5vw);
+}
+
+.main-text h4 {
+    color: sienna;
+    padding-left: 0.8rem;
+}
+
+.main-text h2 {
+    color: slategrey;
+}
+
+.main-text a {
+    text-decoration: none;
+    color: sienna;
+    background-color: whitesmoke;
+    font-weight: 900;
+    padding: 0.8rem 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    margin: 0.8rem auto;
+    transition: opacity 250ms linear;
+}
+
+.main-text a:hover {
+    opacity: 0.7;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+    font-size: calc(1rem + 0.5vw);
+}
+
+.main-content h3 {
+    color: sienna
+}
+
+.main-content p {
+    color: black;
+    align-items: center;
+    font-size: calc(1rem + 0.5vw);
+    word-spacing: 1rem;
+}
+
+.img-text h3 {
+    color: sienna;
+}
+
+.img-text h3:hover {
+    opacity: 0.8;
+}
+
+.img-text a {
+    text-decoration: none;
+    color: sienna;
+    background-color: whitesmoke;
+    font-weight: 900;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    margin: 0.8rem auto;
+    transition: opacity 250ms linear;
+}
+
+.img-text a:hover {
+    opacity: 0.7;
+}
+
+.img-text1 h3 {
+    color: sienna;
+}
+
+.img-text1 a {
+
+    text-decoration: none;
+    color: sienna;
+    background-color: whitesmoke;
+    font-weight: 900;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    margin: 0.8rem auto;
+    transition: opacity 250ms linear;
+
+}
+
+.img-text1 a:hover {
+    opacity: 0.7;
+}
+
+.img-text1 h3:hover {
+    opacity: 0.8;
+}
+
+.main-img img {
+    border-radius: 50%;
+    border: 5px solid slategrey
+}
+
+.main-img1 img {
+    border-radius: 50%;
+    border: 5px solid slategrey
+}
+
+.img-content {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    padding-left: 6rem;
+    padding-top: 5rem;
+}
+
+.img-content1 {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    padding-left: 4rem;
+    padding-top: 5rem;
+
+}
+
+.img-content2 {
+    /* padding-left: 9rem; */
+    padding-top: 5rem;
+    right: 89px;
+}
+
+.img-content3 {
+
+    float: right;
+    width: 24.99999%;
+    position: relative;
+    top: -296px;
+    padding-left: 1rem;
+
+}
+
+
+.main-img3 img {
+    border-radius: 50%;
+    border: 5px solid slategrey
+}
+
+.img-text3 h3 {
+    color: sienna;
+}
+
+.img-text3 h3:hover {
+    opacity: 0.8;
+}
+
+.img-text3 a {
+    text-decoration: none;
+    color: sienna;
+    background-color: whitesmoke;
+    font-weight: 900;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    margin: 0.8rem auto;
+    transition: opacity 250ms linear;
+}
+
+.img-text3 a:hover {
+    opacity: 0.7;
+    ;
+}
+
+.main-img2 img {
+    border-radius: 50%;
+    border: 5px solid slategrey
+}
+
+.img-text2 h3 {
+    color: sienna;
+}
+
+.img-text2 h3:hover {
+    opacity: 0.8;
+}
+
+.img-text2 a {
+    text-decoration: none;
+    color: sienna;
+    background-color: whitesmoke;
+    font-weight: 900;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    margin: 0.8rem auto;
+    transition: opacity 250ms linear;
+}
+
+.img-text2 a:hover {
+    opacity: 0.7;
+}
+.section2{
+    padding-bottom: 11rem;
+}
+.last-section {
+    padding-top: 2rem;
+    background: url(https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.last-section ul{
+    list-style: none;
+}
+
+.last-section ul li {
+    display: inline-block;
+    margin-left: 9rem;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 2rem;
+}
+.last-section ul li a {
+    text-decoration: none;
+    color: sienna;
+
+}
+
+.last-section ul li a:hover {
+    opacity: 0.8;
+}
+.last-section li{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 2rem;
+
+}
+.last-section li img{
+    display: flex;
+    flex-direction: column;
+    
+}
+
